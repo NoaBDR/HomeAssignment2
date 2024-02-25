@@ -1,0 +1,307 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Protest+Riot&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Protest+Riot&display=swap');
+
+
+* {
+    background-color:  #252a34;
+}
+
+body
+{
+    color: #ededed;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-family:fantasy;
+    font-size: 100%;
+}
+
+
+.header {
+  
+    top: 0;
+    left:0;
+    width: 100%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background: transparent;
+    display: flex ;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    font-family: fantasy;
+    position: sticky;
+    background-color:  #252a34;
+    
+}
+
+.logo {
+
+    position: relative;
+    font-size: 25px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+
+.menu a {
+    display: inline-block;
+    font-size: 25px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: 3s;
+        
+}
+
+.menu a:hover {
+    color: #0ef ;
+}
+
+.menu a.selected  {
+
+    color: #0ef 
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 250px;
+    z-index: 999;
+    display: none;
+    flex-direction: column;
+   /* align-self: flex-start;
+    justify-content:flex-start ; */
+    background-color: rgba(225, 225, 225, 0.2);
+}
+
+.sidebar a{
+    display: inline-block;
+    font-size: 25px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: 3s;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.sidebar a:hover {
+    color: #0ef ;
+}
+
+.sidebar a.selected  {
+
+    color: #0ef 
+}
+
+nav svg {
+    background-color: rgba(225, 225, 225, 0.0000001);
+}
+
+
+.home {
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+align-items: center;
+position: relative;
+padding: 70px 10%;
+}
+
+.homee h1 {
+    font-size: 32px;
+    font-weight: 700;
+    font-size: 300%;
+ 
+}
+    
+
+.homee h2 {
+    font-size: 32px;
+    font-weight: 700;
+    font-size: 150%;
+}
+
+.propic
+{
+    width:300px; 
+    height : 300px;
+    margin-left: auto;
+    margin-right:auto;
+    box-shadow:  0 0 100px  #0ef;
+    border-radius: 150px;
+}
+
+.about{
+font-size: 150%;
+padding-top: 5%;
+padding-left: 5%;
+padding-right: 5%;
+font-family: "Josefin Sans", sans-serif;
+text-align: justify;
+
+}
+
+
+#cards {
+
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: row;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+.card {
+
+    width: 300px; 
+    min-width: 300px;
+    height : 700px;
+    min-height:700px ;
+    border: 3px solid  #0ef;
+    border-radius: 15%;
+    padding: 15px;
+    margin: 25px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: 1px 1px 3px 0 black;
+    overflow-y: auto;
+    align-items: center;
+   
+}
+
+.card:hover
+{
+    box-shadow:  0 0 20px  #0ef;
+}
+
+.picSkill
+{
+    width:150px; 
+    height : 150px;
+    margin-left: auto;
+    margin-right:auto;
+}
+
+#cardsskill {
+
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: row;
+    font-family: "Protest Riot", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 150%;
+    padding-top: 70px;
+}
+
+.cardskill {
+
+    width: 150px; 
+    min-width: 150px;
+    height : 150px;
+    min-height:150px ;
+    border: 1px solid  #0ef;
+    border-radius: 50%;
+    margin: 10px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: 1px 1px 3px 0 black;
+    overflow-y: auto;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+   
+}
+
+.cardskill:hover
+{
+    transform: scale(1.1);
+    box-shadow:  0 0 20px  #0ef;
+    
+}
+
+.project{
+    
+    padding-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.iframeProjects{
+    border: 5px solid  #0ef;
+    width: 705px; 
+    min-width: 705px;
+    height : 405px;
+    min-height:405px ;
+    margin: 5%;
+
+}
+
+.iframeProjects:hover
+{
+    box-shadow:  0 0 20px  #0ef;
+    
+}
+
+.cardskill > p
+{
+    margin: auto;
+}
+
+
+.about{
+    font-size: 150%;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-family: "Josefin Sans", sans-serif;
+    text-align: justify;
+    padding: 20px;
+    width: 80%;
+    margin: 20px auto;
+}
+  
+@keyframes typing {
+    from {
+      width: 0;
+    }
+}
+
+.btn,
+    .menu .btn,
+    .sidebar .btn {
+    display: none;
+}
+  
+@media(max-width: 700px) {
+    .hideOnMobile,
+    .menu .hideOnMobile,
+    .sidebar .hideOnMobile {
+        display: none;
+    }
+    .btn,
+    .menu .btn,
+    .sidebar .btn{
+        display:block;
+    }
+}
+
+
+
+
