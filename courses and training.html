@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap" rel="stylesheet">
+    <title>Noa Bar-David:Courses & Training </title>
+    <link rel="stylesheet" href=".\style2.css">
+</head>
+
+<body>
+
+    <header class ="header" >
+        <a href="#" class ="logo"> Protfolio  </a>
+
+        <nav class="sidebar">
+            <a onclick="hidesidebar()" href="#"><svg fill="#FFFFFF" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 24" width="24px" height="24px"><path d="M 4.9902344 3.9902344 A 1.0001 1.0001 0 0 0 4.2929688 5.7070312 L 10.585938 12 L 4.2929688 18.292969 A 1.0001 1.0001 0 1 0 5.7070312 19.707031 L 12 13.414062 L 18.292969 19.707031 A 1.0001 1.0001 0 1 0 19.707031 18.292969 L 13.414062 12 L 19.707031 5.7070312 A 1.0001 1.0001 0 0 0 18.980469 3.9902344 A 1.0001 1.0001 0 0 0 18.292969 4.2929688 L 12 10.585938 L 5.7070312 4.2929688 A 1.0001 1.0001 0 0 0 4.9902344 3.9902344 z"/></svg></a>
+            <a href="./HW2.html"> Home</a>
+            <a href="./About.html"> About</a>
+            <a href="./skills.html"> Skills</a>
+            <a href="./Projects.html"> Projects</a>
+            <a class="selected" href="courses and training.html"> Courses & Training </a>
+        </nav>
+
+        <nav class="menu">
+            <a class="hideOnMobile" href="./HW2.html"  > Home</a>
+            <a class="hideOnMobile" href="./About.html"> About</a>
+            <a class="hideOnMobile" href="./skills.html"> Skills</a>
+            <a class="hideOnMobile" href="./Projects.html"> Projects</a>
+            <a class="hideOnMobile selected" href="courses and training.html"> Courses & Training </a>
+            <a class="btn" onclick="showsidebar()" href="#">  <svg fill="#FFFFFF" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 30 30" width="30px" height="30px"><path d="M 3 7 A 1.0001 1.0001 0 1 0 3 9 L 27 9 A 1.0001 1.0001 0 1 0 27 7 L 3 7 z M 3 14 A 1.0001 1.0001 0 1 0 3 16 L 27 16 A 1.0001 1.0001 0 1 0 27 14 L 3 14 z M 3 21 A 1.0001 1.0001 0 1 0 3 23 L 27 23 A 1.0001 1.0001 0 1 0 27 21 L 3 21 z"/></svg></a>
+        </nav>
+
+        <script>  
+         function showsidebar()
+         {
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display='flex'
+         }
+        </script>
+
+        <script>  
+            function hidesidebar()
+            {
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display='none'
+            }
+        </script>
+
+    </header>  
+
+    <section id="cards">
+
+        <div>
+         <card class="card">
+            <img class="picSkill" src="images\sql logo.jpeg" alt="sql logo"/> 
+                <P>  During my academic journey, I dedicated myself to acquiring in-depth knowledge and practical experience in SQL, recognizing its fundamental role in modern data management. Through hands-on projects and assignments, I developed a strong command of writing complex SQL queries to extract, manipulate, and analyze data effectively. My academic endeavors provided me with a solid foundation in database management systems, encompassing key concepts such as data modeling and relational database structures. Additionally, I engaged in projects that required me to apply SQL skills to real-world scenarios, further refining my ability to design and manage databases with precision. The combination of theoretical understanding and practical application during my studies has equipped me with a valuable skill set in SQL, ready to contribute to data-driven initiatives in a professional setting.
+                </P>
+         </card>
+        </div>
+
+        <div>
+         <card class="card">
+            <img class="picSkill" src="images\C++ logo.png" alt="c++ logo"/> 
+                <P> Through my academic pursuits, I have acquired a comprehensive understanding of the C++ programming language, positioning me as a proficient developer with a strong foundation in software engineering. My coursework involved in-depth exploration of C++ syntax, data structures, algorithms, and object-oriented programming principles. I have successfully applied my knowledge to develop efficient Hands-on projects have enabled me to hone my skills in creating robust applications, emphasizing best practices for code organization and readability. Moreover, my studies have equipped me with the ability to optimize code performance and implement solutions that adhere to industry standards. Armed with a solid grasp of C++, I am well-prepared to contribute to innovative software projects, bringing a valuable blend of theoretical knowledge and practical application to the development landscape.
+                </P>
+        </card>
+        </div>
+
+        <card class="card">
+            <img class="picSkill" src="images\c logo.png" alt="c logo"/> 
+                <P> I have acquired a proficient understanding of the C# programming language, demonstrating my capability to develop robust and efficient software solutions. Through academic coursework and practical application, I have honed my skills in C# syntax, object-oriented programming principles. I am adept at utilizing C# to design and implement scalable solutions, leveraging its features for tasks such as data manipulation, algorithm development, and user interface design. Additionally, my exposure to C# development environments and debugging tools has enhanced my troubleshooting abilities. With a solid foundation in C#, I am well-equipped to contribute to software development projects, bringing a valuable skill set to the intersection of technology and innovation.
+                </P>
+        </card>
+        
+        <card class="card">
+            <img class="picSkill" src="images\excel logo.png" alt="excel logo"/> 
+                <P> Possessing an extensive background in Excel, I have cultivated a robust skill set that combines theoretical knowledge with hands-on experience. Proficient in a wide range of functions, formulas, and data analysis tools, I have demonstrated a comprehensive understanding of Excel's capabilities. Through practical applications, I have developed the ability to analyze data trends, and automate tasks efficiently using macros. This hands-on experience has not only honed my problem-solving skills but has also enabled me to optimize workflows for increased efficiency. In various professional roles, I have successfully leveraged my Excel expertise to streamline processes, make informed decisions based on data analysis, and deliver impactful presentations. My proficiency in Excel positions me as a valuable asset, capable of contributing effectively to analytical and decision-making endeavors.
+                </P>
+        </card>
+
+        <card class="card">
+            <img class="picSkill" src="images\Powerpoint logo.jpeg" alt="p.p logo"/> 
+                <P> My professional profile is underscored by a proficient command of Microsoft PowerPoint, reflecting my expertise in crafting compelling and impactful presentations. I possess an in-depth understanding of the program's features, enabling me to create visually engaging and informative slideshows. With a keen eye for design and layout, I incorporate advanced graphics and animations to enhance the overall visual appeal of my presentations. I am adept at organizing content effectively, ensuring clarity and coherence throughout the slides.  Whether collaborating on team projects or independently delivering presentations, my knowledge of PowerPoint serves as a valuable asset, consistently contributing to the effective communication of ideas and information in various professional settings.
+                </P>
+        </card>
+
+        <card class="card">
+            <img class="picSkill" src="images\word logo.jpeg" alt="word logo"/> 
+                <P> Possessing a comprehensive understanding of Microsoft Word, I am adept at utilizing the software's extensive features to create, format, and edit documents with precision. My proficiency includes the application of various formatting styles, the creation of professional-looking documents, and the utilization of templates to streamline document creation processes. Through my experience, I have honed my skills in document collaboration, version control, and efficient use of advanced features such as mail merge and document automation. Additionally, my attention to detail ensures the production of polished and error-free documents. Whether drafting reports, creating presentations, or collaborating on team projects, my knowledge of Microsoft Word serves as a valuable asset, contributing to effective communication and document management in professional environments.
+                </P>
+        </card>
+        
+
+
+    </section>
+
+    
+
+</body>
+</html>
